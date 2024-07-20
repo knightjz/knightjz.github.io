@@ -12,7 +12,7 @@
   class="scroll-smooth"
   data-default-appearance="light"
   data-auto-appearance="true"
-><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+><head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="rgb(255,255,255)" />
@@ -70,7 +70,7 @@ lane :adhoc do
   
   
   
-  <link rel="canonical" href="http://localhost:1313/posts/%E7%A7%BB%E5%8A%A8%E7%AB%AFjenkins%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%93%E5%8C%85/" />
+  <link rel="canonical" href="https://example.org/posts/%E7%A7%BB%E5%8A%A8%E7%AB%AFjenkins%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%93%E5%8C%85/" />
   
   
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -85,7 +85,7 @@ lane :adhoc do
   
   
   
-  <meta property="og:url" content="http://localhost:1313/posts/%E7%A7%BB%E5%8A%A8%E7%AB%AFjenkins%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%93%E5%8C%85/">
+  <meta property="og:url" content="https://example.org/posts/%E7%A7%BB%E5%8A%A8%E7%AB%AFjenkins%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%93%E5%8C%85/">
   <meta property="og:site_name" content="knight blog">
   <meta property="og:title" content="Jenkins打包">
   <meta property="og:description" content="这是我的第一篇博客文章！欢迎阅读。
@@ -129,7 +129,7 @@ lane :adhoc do
     
     "abstract": "这是我的第一篇博客文章！欢迎阅读。\n#移动端CICD自动化打包jenkins部署\nandroid: #!\/bin\/bash export PATH=\u0026quot;$PATH:\/path\/to\/flutter\/bin\u0026quot; flutter clean flutter pub get flutter build apk \u0026ndash;release if [ ! -d \u0026ldquo;$WORKSPACE\/apk\u0026rdquo; ]; then mkdir -p \u0026ldquo;$WORKSPACE\/apk\u0026rdquo; fi timestamp=$(date \u002b\u0026quot;%Y%m%d-%H:%M:%S\u0026quot;) mv build\/app\/outputs\/flutter-apk\/app-release.apk $WORKSPACE\/apk\/release-$timestamp.apk echo \u0026ldquo;安卓包地址:~\/apk\/release-$timestamp.apk\u0026rdquo;\nios: #!\/bin\/bash export LANG=en_US.UTF-8 export PATH=\u0026quot;$PATH:\/Users\/user\/Documents\/flutter\/bin\u0026quot; export PATH=\u0026quot;$PATH:\/usr\/local\/bin:\/usr\/local\/sbin\u0026quot; export PATH=\u0026quot;$PATH:\/opt\/homebrew\/bin\u0026quot; flutter clean flutter pub get cd ios pod install fastlane adhoc echo \u0026ldquo;iOS包地址:~\/ios\/ipa\/release-时间戳.ipa\u0026rdquo;\n##fastlane部署\ndefault_platform(:ios)\nplatform :ios do\ndesc \u0026ldquo;Build an Ad-Hoc distribution\u0026rdquo;\nlane :adhoc do\n#清理 Fastlane 和 Xcode 缓存 sh \u0026quot;rm -rf ~\/Library\/Developer\/Xcode\/DerivedData\/*\u0026quot; sh \u0026quot;rm -rf ~\/Library\/Logs\/gym\/*\u0026quot; cert # 获取证书 sigh( app_identifier: \u0026quot;com.",
     "inLanguage": "en-us",
-    "url" : "http:\/\/localhost:1313\/posts\/%E7%A7%BB%E5%8A%A8%E7%AB%AFjenkins%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%93%E5%8C%85\/",
+    "url" : "https:\/\/example.org\/posts\/%E7%A7%BB%E5%8A%A8%E7%AB%AFjenkins%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%93%E5%8C%85\/",
     "author" : {
       "@type": "Person",
       "name": ""
@@ -161,6 +161,13 @@ lane :adhoc do
 
   
   
+  
+  
+  
+  
+
+
+
 
   
   

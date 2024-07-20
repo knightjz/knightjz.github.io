@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on knight blog</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://example.org/posts/</link>
     <description>Recent content in Posts on knight blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Jul 2020 11:49:08 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>flutter热更新</title>
-      <link>http://localhost:1313/posts/flutter%E7%83%AD%E6%9B%B4%E6%96%B0/</link>
+      <link>https://example.org/posts/flutter%E7%83%AD%E6%9B%B4%E6%96%B0/</link>
       <pubDate>Mon, 20 Jul 2020 11:49:08 +0700</pubDate>
-      <guid>http://localhost:1313/posts/flutter%E7%83%AD%E6%9B%B4%E6%96%B0/</guid>
+      <guid>https://example.org/posts/flutter%E7%83%AD%E6%9B%B4%E6%96%B0/</guid>
       <description>这是我的第一篇博客文章！欢迎阅读。&#xA;#flutter热更新&#xA;android: #!/bin/bash export PATH=&amp;quot;$PATH:/path/to/flutter/bin&amp;quot; flutter clean flutter pub get flutter build apk &amp;ndash;release if [ ! -d &amp;ldquo;$WORKSPACE/apk&amp;rdquo; ]; then mkdir -p &amp;ldquo;$WORKSPACE/apk&amp;rdquo; fi timestamp=$(date +&amp;quot;%Y%m%d-%H:%M:%S&amp;quot;) mv build/app/outputs/flutter-apk/app-release.apk $WORKSPACE/apk/release-$timestamp.apk echo &amp;ldquo;安卓包地址:~/apk/release-$timestamp.apk&amp;rdquo;&#xA;ios: #!/bin/bash export LANG=en_US.UTF-8 export PATH=&amp;quot;$PATH:/Users/user/Documents/flutter/bin&amp;quot; export PATH=&amp;quot;$PATH:/usr/local/bin:/usr/local/sbin&amp;quot; export PATH=&amp;quot;$PATH:/opt/homebrew/bin&amp;quot; flutter clean flutter pub get cd ios pod install fastlane adhoc echo &amp;ldquo;iOS包地址:~/ios/ipa/release-时间戳.ipa&amp;rdquo;&#xA;##fastlane部署&#xA;default_platform(:ios)&#xA;platform :ios do&#xA;desc &amp;ldquo;Build an Ad-Hoc distribution&amp;rdquo;&#xA;lane :adhoc do&#xA;#清理 Fastlane 和 Xcode 缓存 sh &amp;quot;rm -rf ~/Library/Developer/Xcode/DerivedData/*&amp;quot; sh &amp;quot;rm -rf ~/Library/Logs/gym/*&amp;quot; cert # 获取证书 sigh( app_identifier: &amp;quot;com.</description>
     </item>
     <item>
       <title>Jenkins打包</title>
-      <link>http://localhost:1313/posts/%E7%A7%BB%E5%8A%A8%E7%AB%AFjenkins%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%93%E5%8C%85/</link>
+      <link>https://example.org/posts/%E7%A7%BB%E5%8A%A8%E7%AB%AFjenkins%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%93%E5%8C%85/</link>
       <pubDate>Mon, 20 Jul 2020 11:49:08 +0700</pubDate>
-      <guid>http://localhost:1313/posts/%E7%A7%BB%E5%8A%A8%E7%AB%AFjenkins%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%93%E5%8C%85/</guid>
+      <guid>https://example.org/posts/%E7%A7%BB%E5%8A%A8%E7%AB%AFjenkins%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%93%E5%8C%85/</guid>
       <description>这是我的第一篇博客文章！欢迎阅读。&#xA;#移动端CICD自动化打包jenkins部署&#xA;android: #!/bin/bash export PATH=&amp;quot;$PATH:/path/to/flutter/bin&amp;quot; flutter clean flutter pub get flutter build apk &amp;ndash;release if [ ! -d &amp;ldquo;$WORKSPACE/apk&amp;rdquo; ]; then mkdir -p &amp;ldquo;$WORKSPACE/apk&amp;rdquo; fi timestamp=$(date +&amp;quot;%Y%m%d-%H:%M:%S&amp;quot;) mv build/app/outputs/flutter-apk/app-release.apk $WORKSPACE/apk/release-$timestamp.apk echo &amp;ldquo;安卓包地址:~/apk/release-$timestamp.apk&amp;rdquo;&#xA;ios: #!/bin/bash export LANG=en_US.UTF-8 export PATH=&amp;quot;$PATH:/Users/user/Documents/flutter/bin&amp;quot; export PATH=&amp;quot;$PATH:/usr/local/bin:/usr/local/sbin&amp;quot; export PATH=&amp;quot;$PATH:/opt/homebrew/bin&amp;quot; flutter clean flutter pub get cd ios pod install fastlane adhoc echo &amp;ldquo;iOS包地址:~/ios/ipa/release-时间戳.ipa&amp;rdquo;&#xA;##fastlane部署&#xA;default_platform(:ios)&#xA;platform :ios do&#xA;desc &amp;ldquo;Build an Ad-Hoc distribution&amp;rdquo;&#xA;lane :adhoc do&#xA;#清理 Fastlane 和 Xcode 缓存 sh &amp;quot;rm -rf ~/Library/Developer/Xcode/DerivedData/*&amp;quot; sh &amp;quot;rm -rf ~/Library/Logs/gym/*&amp;quot; cert # 获取证书 sigh( app_identifier: &amp;quot;com.</description>
     </item>
   </channel>
